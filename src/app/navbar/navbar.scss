@@ -1,4 +1,12 @@
 // ########  Mobile Version  ############
+
+.main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 nav {
 	display: grid;
   grid-template-rows: auto 1fr;
@@ -6,7 +14,8 @@ nav {
   background-color: black;
   color: white;
   z-index: 1000;
-  max-height: 100px;                
+  height: 95px;
+  max-height: 95px;                
   transition: max-height 0.6s ease; /* smooth animation */
   overflow: hidden;
 }
@@ -63,13 +72,13 @@ header,footer {
   flex-direction: row;
   flex-shrink: 0;
   gap: 15px;
-  padding-left: clamp(10px, 5vw, 30px);
+  padding-left: clamp(15px, 5vw, 40px);
   padding-top: clamp(5px, 3vw, 15px);
   font-size: 20px;
 }
 
 .child-title {
-  padding-left: clamp(15px, 7vw, 40px);
+  padding-left: clamp(20px, 7vw, 50px);
   font-size: 20px;
   padding-top: clamp(5px, 3vw, 15px);
 }
@@ -105,4 +114,12 @@ header,footer {
     color: #FFF200;
   }
 }
+
+.router-container {
+  overflow: auto;
+  scrollbar-width: thin;
+  height: calc( 100% - 95px );
+  width: 100%;
+}
+
 
