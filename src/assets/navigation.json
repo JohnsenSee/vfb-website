@@ -6,22 +6,23 @@
   {
     "title": "Mitgliedschaft",
     "children": [
-      { "title": "Mitglied werden", "path": "/services/web" },
-      { "title": "Beitragsordnung", "path": "/services/mobile" },
-      { "title": "Mitgliedschaft kündigen", "path": "/services/design" }
+      { "title": "Mitglied werden", "path": "/Mitgliedschaft/Antrag" },
+      { "title": "Daten ändern", "path": "/Mitgliedschaft/Update" },
+      { "title": "Beitragsordnung", "path": "/Mitgliedschaft/Beitragsordnung" },
+      { "title": "Mitgliedschaft kündigen", "path": "/Mitgliedschaft/Kündigung" }
     ]
   },
   {
     "title": "Abteilungen",
     "children": [
-      { "title": "Aktuelle Kurse", "path": "/services/web" },
-      { "title": "Breitensport", "path": "/services/web" },
-      { "title": "Darts", "path": "/services/mobile" },
-      { "title": "Fussball", "path": "/services/design" },
-      { "title": "Laienspiel", "path": "/services/web" },
-      { "title": "Lauftreff", "path": "/services/mobile" },
-      { "title": "Schwimmen", "path": "/services/design" },
-      { "title": "Tischtennis", "path": "/services/web" }
+      { "title": "Aktuelle Kurse", "path": "/Kursangebot" },
+      { "title": "Breitensport", "path": "/Abteilung/Breitensport" },
+      { "title": "Darts", "path": "/Abteilung/Darts" },
+      { "title": "Fussball", "path": "/Abteilung/Fussball" },
+      { "title": "Laienspiel", "path": "/Abteilung/Laienspiel" },
+      { "title": "Lauftreff", "path": "/Abteilung/Lauftreff" },
+      { "title": "Schwimmen", "path": "/Abteilung/Schwimmen" },
+      { "title": "Tischtennis", "path": "/Abteilung/Tischtennis" }
     ]
   },
   {

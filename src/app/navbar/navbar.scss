@@ -11,8 +11,8 @@ nav {
 	display: grid;
   grid-template-rows: auto 1fr;
 	gap: 0.5em;
-  background-color: black;
-  color: white;
+  background-color: #FFF200;
+  color: black;
   z-index: 1000;
   height: 95px;
   max-height: 95px;                
@@ -38,6 +38,7 @@ header {
 header div {         
   padding: 15px;
   text-align: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .burger {
@@ -47,6 +48,7 @@ header div {
 .logo img {
   height: 60px;          
   width: auto;
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
 }
 
 .burger img {
@@ -84,34 +86,34 @@ header,footer {
 }
 
 .arrow.rotated {
-  color: #FFF200;
+  color: darkgray;
 }
 
 .item-title {
   &:hover {
     cursor: pointer;
-    color: #FFF200;
+    color: darkgray;
   }
 }
 
 .child-title {
   &:hover {
     cursor: pointer;
-    color: #FFF200;
+    color: darkgray;
   }
 }
 
 .burger {
   &:hover {
     cursor: pointer;
-    color: #FFF200;
+    color: darkgray;
   }
 }
 
 .arrow {
   &:hover {
     cursor: pointer;
-    color: #FFF200;
+    color: darkgray;
   }
 }
 
@@ -120,6 +122,12 @@ header,footer {
   scrollbar-width: thin;
   height: calc( 100% - 95px );
   width: 100%;
+}
+
+@media (width <= 600px) {
+  .title {
+    visibility: hidden;
+  }
 }
 
 

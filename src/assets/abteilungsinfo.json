@@ -1,0 +1,68 @@
+[
+    {
+        "departmentid": "Fussball",
+        "title": "Fussballfieber? Wir haben genau das Richtige für Dich!",
+        "image": "",
+        "groups": [
+            {
+                "groupname" : "1. Herrenmannschaft",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+            {
+                "groupname" : "2. Herrenmannschaft",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            }
+        ]
+    },
+    {
+        "departmentid": "Breitensport",
+        "title": "Breitensport beim VfB",
+        "image": "",
+        "groups": [
+            {
+                "groupname" : "1. Herrenmannschaft",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+            {
+                "groupname" : "2. Herrenmannschaft",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            }
+        ]
+    }
+]
