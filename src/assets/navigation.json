@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "Mitgliedschaft",
+    "children": [
+      { "title": "Mitglied werden", "path": "/services/web" },
+      { "title": "Beitragsordnung", "path": "/services/mobile" },
+      { "title": "Mitgliedschaft kündigen", "path": "/services/design" }
+    ]
+  },
+  {
+    "title": "Abteilungen",
+    "children": [
+      { "title": "Aktuelle Kurse", "path": "/services/web" },
+      { "title": "Breitensport", "path": "/services/web" },
+      { "title": "Darts", "path": "/services/mobile" },
+      { "title": "Fussball", "path": "/services/design" },
+      { "title": "Laienspiel", "path": "/services/web" },
+      { "title": "Lauftreff", "path": "/services/mobile" },
+      { "title": "Schwimmen", "path": "/services/design" },
+      { "title": "Tischtennis", "path": "/services/web" }
+    ]
+  },
+  {
+    "title": "Verein",
+    "path": "/contact"
+  },
+  {
+    "title": "News",
+    "path": "/contact"
+  }
+]

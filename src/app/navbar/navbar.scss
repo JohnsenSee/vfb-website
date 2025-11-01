@@ -1,0 +1,108 @@
+// ########  Mobile Version  ############
+nav {
+	display: grid;
+  grid-template-rows: auto 1fr;
+	gap: 0.5em;
+  background-color: black;
+  color: white;
+  z-index: 1000;
+  max-height: 100px;                
+  transition: max-height 0.6s ease; /* smooth animation */
+  overflow: hidden;
+}
+
+nav.opened {
+  height: 100%;
+  max-height:100%
+}
+
+// header
+header {
+  display: grid;
+  grid-template-columns: auto auto 1fr;        
+  gap: 15px;
+  align-items: center;  
+  padding: 0 0;
+  flex-shrink: 0;
+}
+
+header div {         
+  padding: 15px;
+  text-align: center;
+}
+
+.burger {
+  justify-self: end;
+}
+
+.logo img {
+  height: 60px;          
+  width: auto;
+}
+
+.burger img {
+  height: 40px;          
+  width: auto;
+}
+
+header,footer {
+	grid-column: 1 / -1;
+}
+
+// Nav Items
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.item-container{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  gap: 15px;
+  padding-left: clamp(10px, 5vw, 30px);
+  padding-top: clamp(5px, 3vw, 15px);
+  font-size: 20px;
+}
+
+.child-title {
+  padding-left: clamp(15px, 7vw, 40px);
+  font-size: 20px;
+  padding-top: clamp(5px, 3vw, 15px);
+}
+
+.arrow.rotated {
+  color: #FFF200;
+}
+
+.item-title {
+  &:hover {
+    cursor: pointer;
+    color: #FFF200;
+  }
+}
+
+.child-title {
+  &:hover {
+    cursor: pointer;
+    color: #FFF200;
+  }
+}
+
+.burger {
+  &:hover {
+    cursor: pointer;
+    color: #FFF200;
+  }
+}
+
+.arrow {
+  &:hover {
+    cursor: pointer;
+    color: #FFF200;
+  }
+}
+
