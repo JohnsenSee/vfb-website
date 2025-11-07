@@ -13,7 +13,7 @@
     ]
   },
   {
-    "title": "Abteilungen",
+    "title": "Sportangebote",
     "children": [
       { "title": "Aktuelle Kurse", "path": "/Kursangebot" },
       { "title": "Breitensport", "path": "/Abteilung/Breitensport" },

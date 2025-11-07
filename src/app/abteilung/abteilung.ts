@@ -1,40 +1,44 @@
 import { Component, OnInit } from '@angular/core';
-import { MatTableModule } from '@angular/material/table';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import DepartmentDetails from '../../assets/abteilungsinfo.json'
+import { CommonModule } from '@angular/common';
 
-interface departmentItems {
-  departmentid: string;
-  title: string;
-  image: string;
-  groups: {
-    groupname: string;
-    contact: {
-      name: string;
-      mobil: string;
-      email: string;
-      function: string;
-    }[];
-    time: string;
-    location: string;
-  }[];
+interface Contact {
+  name: string;
+  mobil: string;
+  email: string;
+  function: string;
 }
+
+interface Group {
+  groupname: string;
+  image: string;
+  contact: Contact[];
+  time: string;
+  location: string;
+}
+
 
 @Component({
   selector: 'app-abteilung',
   imports: [
-    MatTableModule,
-    MatIconModule,
-    MatButtonModule,
+    CommonModule
   ],
   templateUrl: './abteilung.html',
   styleUrl: './abteilung.scss',
 })
 export class Abteilung implements OnInit{
-  columnsToDisplay = ['expand', 'groupname'];
+  expandedGroup: Group | null = null;
+  groups: Group[] = []
+  showSide:boolean = true
 
   ngOnInit(): void {
+    const obj = DepartmentDetails.find(item => item.departmentid === 'Fussball');
+    this.groups = obj?.groups ?? [];
     
+  }
+  
+  toggleExpand(group: Group): void {
+    this.expandedGroup = this.expandedGroup === group ? null : group;
   }
 
 }

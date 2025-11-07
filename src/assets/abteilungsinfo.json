@@ -6,6 +6,7 @@
         "groups": [
             {
                 "groupname" : "1. Herrenmannschaft",
+                "image": "",
                 "contact": [
                     {
                         "name": "",
@@ -19,6 +20,63 @@
             },
             {
                 "groupname" : "2. Herrenmannschaft",
+                "image": "",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+            {
+                "groupname" : "4. Herrenmannschaft",
+                "image": "",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+                        {
+                "groupname" : "1. Herrenmannschaft",
+                "image": "",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+            {
+                "groupname" : "2. Herrenmannschaft",
+                "image": "",
+                "contact": [
+                    {
+                        "name": "",
+                        "mobil": "",
+                        "email": "",
+                        "function": ""
+                    }
+                ],
+                "time": "",
+                "location": ""
+            },
+            {
+                "groupname" : "4. Herrenmannschaft",
+                "image": "",
                 "contact": [
                     {
                         "name": "",
@@ -37,32 +95,6 @@
         "title": "Breitensport beim VfB",
         "image": "",
         "groups": [
-            {
-                "groupname" : "1. Herrenmannschaft",
-                "contact": [
-                    {
-                        "name": "",
-                        "mobil": "",
-                        "email": "",
-                        "function": ""
-                    }
-                ],
-                "time": "",
-                "location": ""
-            },
-            {
-                "groupname" : "2. Herrenmannschaft",
-                "contact": [
-                    {
-                        "name": "",
-                        "mobil": "",
-                        "email": "",
-                        "function": ""
-                    }
-                ],
-                "time": "",
-                "location": ""
-            }
         ]
     }
 ]
